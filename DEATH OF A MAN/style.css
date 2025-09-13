@@ -1,0 +1,232 @@
+*{font-family: Arial, Helvetica, sans-serif;}
+body{margin: 0px;
+background-color: rgb(255, 255, 255);
+display: flex;
+justify-content: center;
+margin-left: 80px;
+overflow: scroll;
+}
+#hero{
+    display: flex;
+    justify-content: center;
+   
+ padding: 20px;
+ margin: 40px;
+height: max-content;
+background-color: rgba(255, 249, 249, 0.678);
+width: min-content;
+}
+.a{
+    flex: 1 1 0;
+}
+
+.x{min-width: 210px;
+    max-width: 210px;
+border-radius: 8px;}
+#we{flex: 1 1 0;
+    flex-flow: column;  
+    justify-content: center;  
+}
+#shield{margin-top: 80px;
+    padding-left: 40px;
+    flex: 1 1 0;
+    
+}
+#gary{
+    margin-top: 80px;
+    padding-left: 40px;
+    flex: 1 1 0;
+}
+.flex{flex: 1 1 0;
+    
+}
+.g{
+    min-width: 120px;
+    flex: 1 1 0;
+    border-radius: 30px;
+    position:absolute;
+    top: -20px;
+    left: 30px;
+   
+    }
+.eject{
+        min-width: 120px;
+        flex: 1 1 0;
+        border-radius: 30px;
+        position:absolute;
+        top:-20px;
+        left: 30px;
+       
+        }
+.zoro{
+    min-width: 120px;
+        flex: 1 1 0;
+        border-radius: 30px;
+        position:absolute;
+        top: -20px;
+        left: 30px;
+
+}
+
+.luffy{
+    min-width: 120px;
+    flex: 1 1 0;
+    border-radius: 30px;
+    position:absolute;
+    top: -20px;
+    left: 30px;
+    
+
+}
+.nami{
+     min-width: 120px;
+    flex: 1 1 0;
+    border-radius: 30px;
+    position:absolute;
+    top: -20px;
+    left: 30px;
+
+}
+.sanji{
+    min-width: 120px;
+    flex: 1 1 0;
+    border-radius: 30px;
+    position:absolute;
+    top: -20px;
+    left: 30px;
+
+}
+.robin{
+    min-width: 120px;
+    flex: 1 1 0;
+    border-radius: 30px;
+    position:absolute;
+    top: -20px;
+    left: 30px;
+}
+.chopper{
+    min-width: 120px;
+    flex: 1 1 0;
+    border-radius: 30px;
+    position:absolute;
+    top: -20px;
+    left: 30px;
+}   
+.kuroko{
+    min-width: 120px;
+    flex: 1 1 0;
+    border-radius: 30px;
+    position:absolute;
+    top: -20px;
+    left: 30px;
+} 
+
+
+   button { cursor:pointer;
+    border: 1px solid brown;
+    width: 150px;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 9px;
+    background-color:white ;
+
+}
+.into{
+    position: relative;
+}
+.red{color: brown;}
+   .fade{color: rgba(153, 126, 126, 0.753);}
+button:focus{background-color: rgb(216, 55, 55);
+color:  rgb(216, 55, 55);
+}
+img:focus{
+    border-color: brown;
+
+}
+@media screen and (max-width:785px) {
+    #hero{
+        
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+      
+        padding-right: 0;
+        
+        
+        
+    }
+    #we{
+        flex: 1 1 0;
+        padding-left: 70px;
+    
+    }
+    #shield{
+        margin-top: 0;
+        flex-wrap: wrap;
+        padding-left: 70px;
+    }
+    #gary{
+        
+        margin-top: 0;
+        flex-wrap: wrap;
+        padding-left: 70px;
+    }
+   
+    .a{flex: 1 1 0;}
+    #edith{
+        width: 250px;
+    margin-right: 60px;
+    }
+    
+
+
+
+
+}
+#edith{
+    flex: 1 1 0;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 15px;
+    padding: 30px;
+    border: 1px white;
+    border-radius: 30px;
+    max-width: 300px;
+    height:400px;
+    background-color: white;
+}
+.jpg{
+    margin-left: 30px
+}
+.grim{
+    color: rgba(102, 47, 47, 0.89);
+}
+.loop{
+    margin-left: 5px;
+}
+
+.line{
+    width: max-content;
+    padding-bottom: 20px;
+    border: 1px solid;
+    border-color: white  white black white;
+}
+.un{
+    margin-bottom: 0;
+    margin-left: 70px;
+}
+.uno{
+    margin-left: 80px;
+}
+@media screen and (max-width:996px) {
+    #hero{
+        display: flex;
+    }
+    #edith{
+        flex: 1 1 0;
+        flex-wrap: wrap-reverse;
+        
+    }
+    
+}
